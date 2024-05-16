@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+img {
+}
+a {
+  text-decoration: none;
+}
+.main-image {
+  padding: 1em;
+}
+.main-image img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  border-radius: 1rem;
+  border: 1px solid white;
+}
+.main-head {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.main-head h1 {
+  font-size: 48px;
+  font-weight: 700;
+  padding: 1rem;
+}
+.main-head p {
+  opacity: 0.8;
+  text-align: start;
+  font-size: 20px;
+  padding: 1rem;
+}
+.Preparation {
+  background-color: rgb(232, 224, 235);
+  padding: 2rem;
+  border: 2px solid white;
+  border-radius: 0.9rem;
+}
+.Preparation h3 {
+  font-size: 26px;
+  padding: 1rem;
+  color: rgb(186, 43, 226);
+}
+.Preparation ul,
+li {
+  padding-left: 4%;
+  padding: 0.5rem;
+  font-size: 20px;
+}
+.Ingredients h3 {
+  font-size: 32px;
+  color: rgb(163, 113, 49);
+  padding: 2%;
+}
+.Ingredients ul,
+li,
+ol {
+  padding-left: 40px;
+}
+
+table tr,
+td,
+th,
+p {
+  padding: 30px;
+}
+
+tr th {
+  color: rgb(163, 113, 49);
+  padding-left: 250px;
+  font-weight: 900;
+}
